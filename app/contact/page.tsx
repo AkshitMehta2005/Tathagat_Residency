@@ -22,7 +22,6 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
     console.log("Form submitted:", formData)
     alert("Thank you for your enquiry! We will get back to you soon.")
     setFormData({ name: "", phone: "", email: "", message: "" })
@@ -44,8 +43,12 @@ export default function ContactPage() {
           </div>
 
           <div className="relative z-10 container-85 mx-auto px-6 lg:px-12 text-center text-white max-w-3xl">
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">Contact Us</h1>
-            <p className="text-lg md:text-xl text-white/95 leading-relaxed">Let's discuss your dream property</p>
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
+              Contact Us
+            </h1>
+            <p className="text-lg md:text-xl text-white/95 leading-relaxed">
+              Let's discuss your dream property
+            </p>
           </div>
         </section>
 
@@ -65,18 +68,24 @@ export default function ContactPage() {
 
                 <div className="space-y-5">
                   {[
-                    { icon: Phone, title: "Phone", content: "9523735343", href: "tel:9523735343" },
+                    { icon: Phone, title: "Phone", content: "7759893555", href: "tel:7759893555" },
                     {
                       icon: MessageSquare,
                       title: "WhatsApp",
                       content: "Chat with us on WhatsApp",
-                      href: "https://wa.me/919523735343",
+                      href: "https://wa.me/917759893555",
                     },
                     { icon: Mail, title: "Email", content: "info@mtathagat.com", href: "mailto:info@mtathagat.com" },
                     {
                       icon: MapPin,
-                      title: "Address",
-                      content: "Flat 404D, Riya Plaza\nKokar, Ranchi\nJharkhand, India",
+                      title: "Property Location",
+                      content: 
+`Tathagat Residency
+Opp. Deep Paradise Apartment
+Ganga Path, Dr. B Bhattacharya Road
+West Patel Nagar, Patna
+Landmark: Axis Bank Patel Nagar Branch
+Pincode: 800029`,
                       href: null,
                     },
                   ].map((item, index) => (
@@ -108,7 +117,7 @@ export default function ContactPage() {
                       </CardContent>
                     </Card>
                   ))}
-                </div>
+                </div>  
               </div>
 
               {/* Contact Form */}
@@ -195,8 +204,13 @@ export default function ContactPage() {
                 <div className="relative h-[400px] bg-secondary flex items-center justify-center">
                   <div className="text-center space-y-5">
                     <MapPin className="h-16 w-16 text-muted-foreground mx-auto" />
-                    <p className="text-xl md:text-2xl font-semibold">MTathagat Developers Pvt. Ltd.</p>
-                    <p className="text-base md:text-lg text-muted-foreground">Flat 404D, Riya Plaza, Kokar, Ranchi</p>
+                    <p className="text-xl md:text-2xl font-semibold">Tathagat Residency</p>
+                    <p className="text-base md:text-lg text-muted-foreground">
+                      Opp. Deep Paradise Apartment, Ganga Path,<br />
+                      Dr. B Bhattacharya Road, West Patel Nagar, Patna<br />
+                      Landmark: Axis Bank Patel Nagar Branch<br />
+                      Pincode: 800029
+                    </p>
                   </div>
                 </div>
               </Card>
