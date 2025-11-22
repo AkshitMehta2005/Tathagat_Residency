@@ -33,10 +33,11 @@ import { useEffect, useState } from "react"
 // FLOOR PLAN DATA
 // ------------------------------------------
 const floorPlansData: FloorPlanData[] = [
-  {
+  {   
   id: "typical",
   title: "Flats 101, 201, 301",
-  area: "1180 Sq.Ft. (Carpet)",
+  // area: "1180 Sq.Ft. (Carpet)",
+  area: "1880 Sq.Ft.",
   thumbnail:
     "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
   fullImage: "101.png",
@@ -46,7 +47,8 @@ const floorPlansData: FloorPlanData[] = [
 { 
   id: "standard",
   title: "Flats 102, 202, 302",
-  area: "1035 Sq.Ft. (Carpet)",
+  // area: "1035 Sq.Ft. (Carpet)",
+  area: "1670 Sq.Ft.",
   thumbnail:
     "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=800",
   fullImage: "102.png",
@@ -61,7 +63,7 @@ const floorPlansData: FloorPlanData[] = [
   //   thumbnail:
   //     "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=800",
   //   fullImage: "3.jpeg",
-  // },
+  // },  
 ]
 
 export default function HomePage() {
@@ -229,11 +231,11 @@ export default function HomePage() {
                   title: "Prime Location",
                   desc: "Well connected",
                 },
-                {
-                  icon: Home,
-                  title: "Fitness Center",
-                  desc: "Well-equipped",
-                },
+                // {
+                //   icon: Home,
+                //   title: "Fitness Center",
+                //   desc: "Well-equipped",
+                // },
               ].map((amenity, index) => (
                 <Card
                   key={index}
@@ -320,7 +322,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
+ 
 
 <section id="plans" className="py-24 md:py-36 bg-white">
   <div className="max-w-7xl mx-auto px-6">
@@ -356,9 +358,9 @@ export default function HomePage() {
 
           {/* Styled Area Details */}
           <div className="w-full bg-muted/30 rounded-xl p-5 shadow-sm text-center space-y-1">
-            <p className="text-sm font-semibold text-foreground tracking-wide">
+            {/* <p className="text-sm font-semibold text-foreground tracking-wide">
               Carpet Area — <span className="text-primary">{plan.area}</span>
-            </p>
+            </p> */}
 
             {plan.builtUpArea && (
               <p className="text-sm font-medium text-muted-foreground">
@@ -477,10 +479,14 @@ export default function HomePage() {
             {/* IMAGE GRID */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600",
-                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=600",
-                "https://volzero.com/img/article/104477_52772.jpg",
-                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=600",
+                // "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600",
+                // "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=600",
+                // "https://volzero.com/img/article/104477_52772.jpg",
+                // "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=600",
+                "1.jpeg",
+                "2.jpeg",
+                "3.jpeg",
+                "5.jpeg",
               ].map((img, index) => (
                 <div
                   key={index}
