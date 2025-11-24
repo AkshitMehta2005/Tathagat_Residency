@@ -9,7 +9,7 @@ import {
   Hospital,
   School,
   MapPin,
-  Home,
+  Home,  
   Car,
   Dumbbell,
   Shield,
@@ -41,7 +41,7 @@ const floorPlansData: FloorPlanData[] = [
   thumbnail:
     "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800",
   fullImage: "101.png",
-  builtUpArea: "1393 Sq.Ft.",
+  builtUpArea: "1450 Sq.Ft.",
   superBuiltUpArea: "1880 Sq.Ft.",
 },
 { 
@@ -52,7 +52,7 @@ const floorPlansData: FloorPlanData[] = [
   thumbnail:
     "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=800",
   fullImage: "102.png",
-  builtUpArea: "1235 Sq.Ft.",
+  builtUpArea: "1285 Sq.Ft.",
   superBuiltUpArea: "1670 Sq.Ft.",
 },
 
