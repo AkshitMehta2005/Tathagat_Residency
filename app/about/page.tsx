@@ -45,7 +45,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 max-w-5xl mx-auto">
+            {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 max-w-5xl mx-auto">
               <Card className="border-none shadow-xl text-center hover:shadow-2xl transition-all duration-300 hover-lift">
                 <CardContent className="p-10 space-y-5">
                   <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
@@ -73,7 +73,7 @@ export default function AboutPage() {
                   <p className="text-base text-muted-foreground">Years of Excellence</p>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -129,52 +129,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Message from Directors */}
-        <section className="py-24 md:py-32 bg-background">
-          <div className="container-85 mx-auto px-6 lg:px-12">
-            <div className="max-w-5xl mx-auto">
-              <div className="text-center mb-16">
-                <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold">Message from the Directors</h2>
-              </div>
-
-              <Card className="border-none shadow-2xl">
-                <CardContent className="p-10 md:p-14">
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start mb-10">
-                    <div className="md:col-span-1">
-                      <div className="relative h-72 md:h-full rounded-2xl overflow-hidden">
-                        <img
-                          src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2070"
-                          alt="Director"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    </div>
-                    <div className="md:col-span-2 space-y-5">
-                      <p className="text-base text-muted-foreground leading-relaxed">
-                        "At MTathagat Developers, we believe that every project is an opportunity to create something
-                        extraordinary. Our commitment to excellence, integrity, and innovation drives everything we do."
-                      </p>
-                      <p className="text-base text-muted-foreground leading-relaxed">
-                        Over the years, we have been privileged to work with thousands of families and businesses,
-                        helping them find their perfect space. Each project reinforces our belief that quality and
-                        customer satisfaction should never be compromised.
-                      </p>
-                      <p className="text-base text-muted-foreground leading-relaxed">
-                        As we continue to grow, we remain committed to our core values and promise to deliver properties
-                        that stand as landmarks of excellence for generations to come. Thank you for trusting us with
-                        your dreams."
-                      </p>
-                      <div className="pt-5">
-                        <p className="font-bold text-xl mb-1">Management Team</p>
-                        <p className="text-base text-muted-foreground">MTathagat Developers Pvt. Ltd.</p>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
+        
       </main>
       <Footer />
       <WhatsAppButton />

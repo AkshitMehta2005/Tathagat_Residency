@@ -75,7 +75,7 @@ export default function ContactPage() {
                       content: "Chat with us on WhatsApp",
                       href: "https://wa.me/917759893555",
                     },
-                    { icon: Mail, title: "Email", content: "info@mtathagat.com", href: "mailto:info@mtathagat.com" },
+                    { icon: Mail, title: "Email", content: "tathagat3337@gmail.com", href: "mailto:tathagat3337@gmail.com" },
                     {
                       icon: MapPin,
                       title: "Property Location",

@@ -102,11 +102,11 @@ export default function HomePage() {
           <div className="container-85 mx-auto px-6 z-10 text-center py-32">
             <div className="max-w-5xl mx-auto space-y-8">
               <p className="text-sm md:text-base text-foreground/70 tracking-[0.3em] font-light uppercase animate-fade-in-down">
-                Like Nothing
+                Crafted for the Exceptional
               </p>
 
               <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-foreground leading-[0.95] tracking-tight animate-fade-in-up">
-                ELSE
+                Boutique Styled Homes
               </h1>
 
               <div
@@ -114,7 +114,7 @@ export default function HomePage() {
                 style={{ animationDelay: "0.2s" }}
               >
                 <p className="text-base md:text-lg text-foreground/80 tracking-[0.2em] uppercase font-light">
-                  Boutique Styled Residences
+                 for a Distinguished Lifestyle
                 </p>
                 <p className="text-sm md:text-base text-foreground/70 tracking-[0.15em] uppercase font-light">
                   At Nanakramguda, Hyderabad
