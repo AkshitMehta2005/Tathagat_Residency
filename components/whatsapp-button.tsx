@@ -5,7 +5,7 @@ import { useState } from "react"
 
 export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false)
-  const whatsappNumber = "+91775989355"
+  const whatsappNumber = "+917759893555"
   const message = "Hi, I'm interested in your properties. Can you provide more information?"
 
   return (

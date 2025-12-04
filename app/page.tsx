@@ -117,7 +117,7 @@ export default function HomePage() {
                  for a Distinguished Lifestyle
                 </p>
                 <p className="text-sm md:text-base text-foreground/70 tracking-[0.15em] uppercase font-light">
-                  At Nanakramguda, Hyderabad
+                  At Patel Nagar, Patna, Bihar
                 </p>
               </div>
             </div>
